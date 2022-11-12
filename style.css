@@ -6,9 +6,10 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin: 0;
 }
 
@@ -34,5 +35,44 @@ nav ul li {
  }
 
  .body-one {
+    display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: 0;
  }
+
+.awesome {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: extra-bold;
+ }
+
+.subtext {
+    color: #F9FAF8;
+    padding: 10px;
+ }
+
+
+.button {
+    display: flex;
+    color: #F9FAF8;
+    background-color: pink;
+    margin: 20px 10px;
+    border-radius: 8px;
+    width: fit-content;
+    border-color: pink;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid pink;
+    width: 250px;
+    padding: 50px;
+    height: 100px;
+    margin: 20px;
+}
