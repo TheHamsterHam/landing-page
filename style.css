@@ -123,12 +123,37 @@ img {
 
 .call {
     background-color: plum;
-    border: 2px;
     width: 800px;
-    height: 120px;
-    border-radius: 8px; 
+    height: 100px;
+    padding-bottom: 10px;
+    border-radius: 10px; 
 }
 
-#action {
-    
+.action {
+    text-align: justify;
+    margin-left: 80px;
+    margin-bottom: -5px;
+}
+
+.sign {
+    text-align: justify;
+    margin-left: 80px;
+}
+
+#button {
+    color: #F9FAF8;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 8px;
+    margin-left: 90px;
+    padding: 5px 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1f2937;
+    padding: 10px;
 }
